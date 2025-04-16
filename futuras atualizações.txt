@@ -1,0 +1,15 @@
+- [ ] Ao clicar em ver mais vai para tela que mostra meu wireframes, minhas pesquisas
+- [ ] ao passar o mouse na minhas habilidade vai mostrar a barrinh de o quanto eu sou boa, e talvez o cursos que fiz?
+mostra os top projetos que fiz com aquelas tecnologias?
+- [ ] melhorar o tamanho da fonte ok
+- [ ] Deixar responsivo - ok 
+- [ ] Hospedar ele usando o FIrebase
+- [ ] fazer as páginas de ver mais
+- [ ] deixar ele em modo escuro ok
+- [ ] adicionar efeitos ao passar o mouse nos botoes ok
+- [ ] adicionar o fvicon ok
+- [ ] colocar opçao de deixar tudo em ingles ok
+- [ ] ajeitar o ver mais ok
+- [ ] mudar a foto profissional
+- [ ] estebelecer um tamanho para as imagens, deixar todos do tamanho do gfin
+- [ ] fazer um passa tempo, um lugar para a pessoa jogar

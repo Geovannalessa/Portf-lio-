@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="icon" href="./public/img/flor-titulo-branco.svg" type="image/png">
+    <script src="./script-padrao.js"></script>
+
+    <title>Portfólio Geovanna Lessa</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-e-logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="translate" href="#sobre-mim" data-pt="Sobre mim" data-en="About me">Sobre mim
+                        </a>
+                    </li>
+                    <li>
+                        <a class="translate" href="#projetos" data-pt="Principais Projetos"
+                            data-en="Main Projects">Principais Projetos
+                        </a>
+                    </li>
+                    <li>
+                        <a class="translate" href="#contato" data-pt="Contato" data-en="Contact">Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="./public/img/Icone.svg" alt="Logo do Portfólio" class="logo">
+            <div id="funcionalidades">
+                <button id="btn-idioma">english</button>
+                <button onclick="mudaTema(this)">
+                    <div class="mudaTema"></div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <section>
+            <h1 class="titulo">
+                <div class="flor"></div>
+                <span class="translate" data-pt="Sobre mim" data-en="About me">
+                    Sobre mim
+                </span>
+                <div class="flor"></div>
+            </h1>
+            <div id="sobre-mim">
+                <div>
+                    <h1>
+                        <span style="display: inline-block; font-size:35px;">Geovanna Lessa</span><br>
+                        UI/UX Designer <br>
+                        && <br>
+                        <span class="translate" data-pt="Desenvolvedora Front End" data-en="Front End Developer">
+                            Desenvolvedora Front End
+                        </span>
+                    </h1>
+                    <ul id="habilidades">
+                        <li>Figma</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>WordPress</li>
+                        <li>C#</li>
+                        <li>SQL Server</li>
+                        <li>React Native</li>
+                    </ul>
+                    <div id="descricao">
+                        <p class="translate"
+                            data-pt="Olá, meu nome é Geovanna Lessa, sou UI/UX Designer e Desenvolvedora Front-end com paixão por transformar ideias em produtos digitais completos - desde a concepção do design até a implementação do código. Como profissional PJ, ofereço soluções completas para projetos freelancers, combinando habilidades criativas e técnicas para entregar interfaces funcionais e visualmente atraentes."
+                            data-en="Hello, my name is Geovanna Lessa, I am a UI/UX Designer and Front-end Developer with a passion for transforming ideas into complete digital products - from design conception to code implementation. As a PJ professional, I offer complete solutions for freelance projects, combining creative and technical skills to deliver functional and visually appealing interfaces.">
+                            Olá, meu nome é Geovanna Lessa, sou UI/UX Designer e Desenvolvedora Front-end com paixão por
+                            transformar ideias em produtos digitais completos - desde a concepção do design até a
+                            implementação do código. Como profissional PJ, ofereço soluções completas para projetos
+                            freelancers, combinando habilidades criativas e técnicas para entregar interfaces funcionais
+                            e visualmente atraentes.
+                        </p>
+
+                        <ul>
+                            <li class="translate"
+                                data-pt="Criação de wireframes e mockups no Figma com foco em acessibilidade (WCAG) e usabilidade"
+                                data-en="Creation of wireframes and mockups in Figma with a focus on accessibility (WCAG) and usability">
+                                Criação de wireframes e mockups no Figma com foco em acessibilidade (WCAG) e usabilidade
+                            </li>
+
+                            <li class="translate"
+                                data-pt="Desenvolvimento front-end com JavaScript, React e tecnologias web modernas"
+                                data-en="Front-end development with JavaScript, React, and modern web technologies">
+                                Desenvolvimento front-end com JavaScript, React e tecnologias web modernas
+                            </li>
+
+                            <li class="translate"
+                                data-pt="Prototipação interativa e design systems para manter consistência visual"
+                                data-en="Interactive prototyping and design systems to maintain visual consistency">
+                                Prototipação interativa e design systems para manter consistência visual
+                            </li>
+
+                            <li class="translate"
+                                data-pt="Implementação de designs responsivos que funcionam em qualquer dispositivo"
+                                data-en="Implementation of responsive designs that work on any device">
+                                Implementação de designs responsivos que funcionam em qualquer dispositivo
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <img id="imagem-profissional" src="./public/img/FotoPortifolio.png" alt="Foto de Geovanna Lessa">
+            </div>
+
+
+        </section>
+
+        <section id="projetos">
+            <h1 class="titulo">
+                <div class="flor"></div>
+                <span class="translate" data-pt="Principais Projetos" data-en="Main Projects">Principais Projetos</span>
+                <div class="flor"></div>
+            </h1>
+            <ul>
+                <li class="card-projeto">
+                    <img class="imagem-projeto" src="./public/img/projetoGfin.png"
+                        data-light="./public/img/projetoGfin.png"
+                        data-dark="./public/img/Captura de tela 2025-04-09 201454.png" alt="Imagem do projeto Gfin">
+                    <div>
+                        <h3 class="titulo-projeto">Gfin</h3>
+                        <p class="descricao-projeto translate"
+                            data-pt="Aplicativo de controle financeiro com interface intuitiva e recursos para acompanhar despesas, receitas e orçamentos de forma eficiente."
+                            data-en="Financial control app with an intuitive interface and features to track expenses, income, and budgets efficiently.">
+                            Aplicativo de controle financeiro com interface intuitiva e recursos para acompanhar
+                            despesas, receitas e orçamentos de forma eficiente.
+                        </p>
+                        <ul id="habilidades">
+                            <li>Figma</li>
+                            <li>React Native</li>
+                        </ul>
+                        <a class="ver-mais" href="#github">
+                            <span class="translate" data-pt="Ver Mais" data-en="See More">Ver Mais</span>
+                            <img class="seta" src="./public/img/seta.svg" alt="Seta para o lado">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="card-projeto">
+                    <img class="imagem-projeto" src="./public/img/claro.png" data-light="./public/img/claro.png"
+                        data-dark="./public/img/escuro.png" alt="Imagem do projeto Mining BR">
+                    <div>
+                        <h3 class="titulo-projeto">Mining BR</h3>
+                        <p class="descricao-projeto translate"
+                            data-pt="Plataforma de compras e vendas com sistema de leilão focada em produtos de marca, como relógios Casio e tênis Jordan. O diferencial está na verificação de autenticidade: uma IA realiza a triagem inicial, analisando fotos e fazendo perguntas específicas que só itens originais podem responder. Após essa etapa, o produto passa por uma validação humanizada, garantindo segurança e confiança para compradores e vendedores."
+                            data-en="Auction-based buying and selling platform focused on branded products like Casio watches and Jordan sneakers. Its differential is the authenticity check: an AI performs the initial screening, analyzing photos and asking specific questions that only genuine items can answer. After this stage, the product goes through a humanized validation process, ensuring trust and security for buyers and sellers.">
+                            Plataforma de compras e vendas com sistema de leilão focada em produtos de marca, como
+                            relógios Casio e tênis Jordan. O diferencial está na verificação de autenticidade: uma IA
+                            realiza a triagem inicial, analisando fotos e fazendo perguntas específicas que só itens
+                            originais podem responder. Após essa etapa, o produto passa por uma validação humanizada,
+                            garantindo segurança e confiança para compradores e vendedores.
+                        </p>
+                        <ul id="habilidades">
+                            <li>Figma</li>
+                        </ul>
+                        <a class="ver-mais" href="#github">
+                            <span class="translate" data-pt="Ver Mais" data-en="See More">Ver Mais</span>
+                            <img class="seta" src="./public/img/seta.svg" alt="Seta para o lado">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h1 class="titulo">
+                <div class="flor"></div>
+                <span class="translate" data-pt="Contato" data-en="Contact">Contato</span>
+                <div class="flor"></div>
+            </h1>
+            <p class="translate" data-pt="Quer conhecer mais sobre meu trabalho?"
+                data-en="Want to know more about my work?">Quer conhecer mais sobre meu trabalho?</p>
+            <p class="translate" data-pt="Acesse:" data-en="Access:">Acesse:</p>
+            <ul id="contatos">
+                <li class="contato">
+                    <a href="https://www.linkedin.com/in/geovanna-lessa/" target="_blank">
+                        <img src="./public/img/linkedin.png" alt="Logo do Linkedin">
+                        <span class="translate" data-pt="Meu Linkedin" data-en="My LinkedIn">Meu Linkedin</span>
+                    </a>
+                </li>
+                <li class="contato">
+                    <a href="https://github.com/Geovannalessa" target="_blank">
+                        <img src="./public/img/Github.png" alt="Logo do Github">
+                        <span class="translate" data-pt="Meu GitHub" data-en="My GitHub">Meu GitHub</span>
+                    </a>
+                </li>
+                <li class="contato">
+                    <a href="https://geovannalessa.github.io/Curriculo/" target="_blank">
+                        <img src="./public/img/FileTextFill.png" alt="Logo de papel">
+                        <span class="translate" data-pt="Veja meu Currículo" data-en="See my Resume">Veja meu
+                            Currículo</span>
+                    </a>
+                </li>
+                <li class="contato">
+                    <a href="mailto:geovannalessa2@gmail.com" target="_blank">
+                        <img src="./public/img/ChatLeftTextFill.png" alt="Logo de chat">
+                        <span class="translate" data-pt="Email" data-en="Email">Email</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p class="translate" data-pt="Desenvolvido por Geovanna Lessa" data-en="Developed by Geovanna Lessa">&copy;
+                Desenvolvido por Geovanna Lessa</p>
+            <p>2025</p>
+        </footer>
+
+</body>
+
+</html>
