@@ -13,3 +13,8 @@ mostra os top projetos que fiz com aquelas tecnologias?
 - [ ] mudar a foto profissional
 - [ ] estebelecer um tamanho para as imagens, deixar todos do tamanho do gfin
 - [ ] fazer um passa tempo, um lugar para a pessoa jogar
+- [ ] ver como atualiza o git pages
+- [ ] fazer as organização para não repetir codigo
+- [ ] melhorar a alteração de idioma
+- [ ] fazer uma conta no figma no communty
+- [ ] colocar btn de para acessar o figma communty no html do ginf

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/projetos.css">
+    <link rel="icon" href="../public/img/flor-titulo-branco.svg" type="image/png">
+    <script src="../script-padrao.js"></script>
+
+    <title>Geovanna Lessa</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-e-logo">
+            <a href="../index.html">
+                <img src="../public/img/Icone.svg" alt="Logo do Portfólio" class="logo">
+            </a>
+            <div id="funcionalidades">
+                <button id="btn-idioma">english</button>
+                <button onclick="mudaTema(this)">
+                    <div class="mudaTema"></div>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div vw class="enabled"></div>
+        <nav id="navegacao">
+            <a id="link-voltar" href="../index.html">
+                < Voltar</a>
+        </nav>
+
+        <h1 class="titulo_projeto">
+            <span style="display: inline-block; font-size:35px;">Gfinanças</span><br>
+            <span style="font-size: 17px;">Aplicativo de Finanças Pessoais</span>
+            <ul id="habilidades">
+                <li>React Native</li>
+                <li>Figma</li>
+                <li>Briefing</li>
+                <li>Wireframe</li>
+                <li>Mockup</li>
+                <li>React Native</li>
+                <li>UX Research</li>
+            </ul>
+
+            <div>
+                <a id="link-figma" target="_blank" href="#">Figma Community</a>
+                <a id="link-github" target="_blank" href="https://github.com/RyeeFerreira/Gfin"> Acessar o GitHub</a>
+            </div>
+        </h1>
+
+        <section>
+            <h1 class="titulo">
+                <div class="flor"></div>
+                Objetivo
+                <div class="flor"></div>
+            </h1>
+            <p>
+                O projeto surgiu a partir do desejo de criar um aplicativo intuitivo para ajudar na organização
+                financeira,
+                especialmente para quem está começando a desenvolver o hábito de gerenciar suas finanças. Embora o uso
+                de
+                planilhas seja amplamente recomendado, percebi na prática que nem sempre é fácil manter a atualização
+                diária.
+                Pensando nisso, nasceu a ideia de criar uma solução prática e acessível para simplificar o controle
+                financeiro.
+                A iniciativa para o desenvolvimento do projeto veio em parceria com meu namorado, que é programador e
+                assumiu o papel de cliente e colaborador. Trabalhamos juntos para transformar essa necessidade em um
+                produto
+                funcional.
+            </p>
+            <img class="mockupImagem" src="../public/img/Mockup Completo.svg">
+        </section>
+
+
+        <section>
+            <h1 class="titulo">
+                <div class="flor"></div>
+                Desenvolvimento do Projeto
+                <div class="flor"></div>
+            </h1>
+
+            <p>
+                O projeto foi iniciado em janeiro de 2025. <br>
+                Comecei desenvolvendo o briefing e realizando pesquisas sobre aplicativos concorrentes, buscando compreender as principais críticas e sugestões de melhorias.<br>
+                Devido ao prazo curto, já tinha estruturado o mockup das telas-base, como Login, Esqueci a Senha e Cadastro, alinhando também com o cliente as escolhas de cores. A identidade visual, incluindo o logotipo, foi fornecida por ele.<br>
+                
+                Para garantir uma experiência mais intuitiva, me dediquei com mais atenção à criação dos wireframes das telas de Home, Histórico e Adicionar Histórico.
+                Todas as telas foram elaboradas no Figma.<br>
+                <span class="destaque_texto" style="color:#843E10;margin-top:20px;">
+                    Caso queira acompanhar a organização e visualizar o projeto de maneira mais detalhada, ele está disponível no 
+                    <a href="#">
+                        Figma Community.
+                    </a>
+                </span>
+            </p>
+            <div class="carrossel-wrapper">
+                <button id="anterior" class="btn_carrossel">←</button>
+
+                <div class="carrossel" id="carrossel">
+                    <img class="carrossel-img" src="../public/img/Briefing.png" alt="Briefing" title="Tela de Briefing">
+                <img class="carrossel-img" src="../public/img/Pesquisa.png" alt="Pesquisa" title="Tela com as pesquisas">
+                    <img class="carrossel-img" src="../public/img/wireframeGfin - claro.svg"
+                        data-light="../public/img/wireframeGfin - claro.svg"
+                        data-dark="../public/img/wireframeGfin - escuro.svg" title="Telas de Wireframe">
+                </div>
+
+                <button id="proximo" class="btn_carrossel">→</button>
+            </div>
+            <p>
+                Após a finalização da prototipação, organizamos a divisão de tarefas: a parte de front-end ficou sob minha responsabilidade, enquanto o back-end foi atribuído ao meu parceiro de equipe. Utilizamos React Native para o desenvolvimento mobile e o MongoDB como banco de dados principal.<br>
+                Durante o processo, aplicamos práticas de versionamento de código com Git, realizando operações como criação de branches, atualizações, merges e pull requests para garantir o bom andamento do projeto em equipe.<br>
+
+                <span class="destaque_texto" style="color: rgb(56, 46, 100);margin-top:20px; background-color: rgb(232, 227, 227); padding: 10px; border-radius: 5px;"> 
+                    &lt;&gt; O projeto permanece em desenvolvimento, com previsão de conclusão para setembro de 2025.&lt;/&gt;
+                </span><br>
+                <span class="destaque_texto" style="color: #1C5B75;" >
+                    Caso queira visualizar os códigos, eles estão disponíveis no 
+                    <a href="#">
+                        GitHub.
+                    </a>
+                </span>
+            </p>
+        </section>
+    </main>
+</body>
+<footer>
+    <p class="translate" data-pt="Desenvolvido por Geovanna Lessa" data-en="Developed by Geovanna Lessa">&copy;
+        Desenvolvido por Geovanna Lessa</p>
+    <p>2025</p>
+</footer>
+
+</html>

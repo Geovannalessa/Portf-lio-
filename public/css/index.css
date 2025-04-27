@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(#ffffff,rgb(240, 16, 16),#f9fcff);
+  background: linear-gradient(#ffffff,  #ffffff,#f9fcff);
   font-family: "Nobile", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -66,6 +66,21 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.mudaTema{
+  transition: 0.5s;
+  cursor: pointer;
+  width: 20px; 
+  height: 20px;
+  background-image: url("../img/MoonFill.svg");
+  background-size: cover;
+}
+
+.mudaTema:hover {
+  transition: 0.5s;
+  border-radius: 4px;
+  filter: brightness(3) invert(0);
 }
 
 #sobre-mim{
@@ -188,7 +203,6 @@ h1{
   object-fit: cover;
 }
 
-
 .info-projeto {
   width: 100%;
 }
@@ -204,7 +218,7 @@ h1{
   margin-bottom: 10px;
 }
 
-.ver-mais {
+.link {
   color: #597f9f;
   display: flex;
   align-items: center;
@@ -216,7 +230,7 @@ h1{
   transition: 0.5s;
 }
 
-.ver-mais:hover {
+.link:hover {
   color: #2608ad;
 }
 
@@ -295,7 +309,7 @@ footer p {
     gap: 25px;
   }
 
-  .ver-mais {
+  .link {
     font-size: 12px;
   }
 }
@@ -392,7 +406,7 @@ footer p {
     justify-content: center;
   }
 
-  .ver-mais {
+  .link {
     font-size: 12px;
   }
 
@@ -449,7 +463,7 @@ footer p {
     justify-content: center;
   }
 
-  .ver-mais {
+  .link {
     font-size: 10px;
   }
 
@@ -472,24 +486,9 @@ footer p {
     padding: 4px 10px;
   }
 
-  .ver-mais img.seta {
+  .link img.seta {
     width: 14px;
   }
-}
-
-.mudaTema{
-  transition: 0.5s;
-  cursor: pointer;
-  width: 20px; 
-  height: 20px;
-  background-image: url("../img/MoonFill.svg");
-  background-size: cover;
-}
-
-.mudaTema:hover {
-  transition: 0.5s;
-  border-radius: 4px;
-  filter: brightness(3) invert(0);
 }
 
 body.dark-mode .mudaTema{
@@ -560,7 +559,7 @@ body.dark-mode .descricao-projeto {
   color: #b8b2b2;
 }
 
-body.dark-mode .ver-mais:hover {
+body.dark-mode .link:hover {
   color: #a89bdf;
 }
 
