@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/index.css">
     <link rel="stylesheet" href="../public/css/projetos.css">
     <link rel="icon" href="../public/img/flor-titulo-branco.svg" type="image/png">
     <script src="../script-padrao.js"></script>
@@ -26,7 +27,12 @@
         </div>
     </header>
     <main>
-        <div vw class="enabled"></div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
         <nav id="navegacao">
             <a id="link-voltar" href="../index.html">
                 < Voltar</a>
@@ -125,6 +131,10 @@
             </p>
         </section>
     </main>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 <footer>
     <p class="translate" data-pt="Desenvolvido por Geovanna Lessa" data-en="Developed by Geovanna Lessa">&copy;

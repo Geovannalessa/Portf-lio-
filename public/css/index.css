@@ -73,7 +73,7 @@ nav a:hover {
   cursor: pointer;
   width: 20px; 
   height: 20px;
-  background-image: url("../img/MoonFill.svg");
+  background-image: url("../img/icons/escuro/MoonFill.svg");
   background-size: cover;
 }
 
@@ -151,7 +151,7 @@ h1{
 .flor{
   width: 20px;
   height: 20px;
-  background-image: url('../img/flor-titulo-escuro.svg');
+  background-image: url('../img/icons/escuro/flor-titulo-escuro.svg');
   background-size: cover;
 }
 
@@ -288,7 +288,7 @@ h1{
 
 footer {
   margin-top: 100px;
-  background-color: #f9f9f9; /* ou qualquer cor de fundo que combine */
+  background-color: #f9f9f9;
   padding: 20px 0;
   text-align: center;
   font-size: 14px;
@@ -327,18 +327,17 @@ footer p {
     width: 100%;
   }
   
-  /* Linha de cima (logo centralizada + funcionalidades no canto direito) */
   .menu-e-logo .logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-    width: 30px; /* ajuste como preferir */
+    width: 30px; 
     top: 0;
     margin-top: 10px;
   }
   
-  /* Funcionalidades no canto superior direito */
+ 
   #funcionalidades {
     position: absolute;
     right: 0;
@@ -349,9 +348,9 @@ footer p {
     padding: 10px;
   }
   
-  /* A navegação fica abaixo de tudo */
+
   .menu-e-logo nav {
-    margin-top: 80px; /* espaço para a logo e botões acima */
+    margin-top: 80px;
   }
   
   .menu-e-logo nav ul {
@@ -493,7 +492,7 @@ footer p {
 
 body.dark-mode .mudaTema{
   transition: 0.5s;
-  background-image: url("../img/SunFill.svg");
+  background-image: url("../img/icons/claro/SunFill.svg");
   background-size: cover;
 }
 
@@ -585,7 +584,7 @@ body.dark-mode footer {
 }
 
 body.dark-mode .flor{
-  background-image: url('../img/flor-titulo-branco.svg');
+  background-image: url('../img/icons/claro/flor-titulo-branco.svg');
   background-size: cover;
   transition: 0.5s;
 }

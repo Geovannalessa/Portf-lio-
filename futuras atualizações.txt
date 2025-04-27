@@ -18,3 +18,4 @@ mostra os top projetos que fiz com aquelas tecnologias?
 - [ ] melhorar a alteração de idioma
 - [ ] fazer uma conta no figma no communty
 - [ ] colocar btn de para acessar o figma communty no html do ginf
+- [ ] adicionar no footer o meu contato
